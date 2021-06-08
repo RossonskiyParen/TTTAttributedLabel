@@ -57,6 +57,16 @@ As of version 1.10.0, `TTTAttributedLabel` supports VoiceOver through the  `UIAc
 pod 'TTTAttributedLabel'
 ```
 
+[SPM](https://swift.org/package-manager/). To install TTTAttributedLabel just add next line to your `Package.swift`:
+
+```swift
+...
+dependencies: [
+    .package(name: "TTTAttributedLabel", url: "https://github.com/RossonskiyParen/TTTAttributedLabel", from: "2.0.1")
+],
+...
+```
+
 ## Usage
 
 `TTTAttributedLabel` can display both plain and attributed text: just pass an `NSString` or `NSAttributedString` to the `setText:` setter. Never assign to the `attributedText` property.
